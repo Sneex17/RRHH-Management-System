@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B347B22-CC66-45D4-9758-22D3582D196C}|ApplicationBackend\\ApplicationBackend.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\applicationbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B347B22-CC66-45D4-9758-22D3582D196C}|ApplicationBackend\\ApplicationBackend.csproj|solutionrelative:applicationbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "ApplicationBackend\\appsettings.json",
+              "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\appsettings.json",
+              "RelativeToolTip": "ApplicationBackend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-31T23:19:19.136Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
