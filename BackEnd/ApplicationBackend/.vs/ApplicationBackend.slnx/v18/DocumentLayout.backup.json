@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\applicationbackend\\models\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|solutionrelative:applicationbackend\\models\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\applicationbackend\\data\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|solutionrelative:applicationbackend\\data\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\applicationbackend\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|solutionrelative:applicationbackend\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,6 +59,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConexionBD.cs",
+              "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Data\\ConexionBD.cs",
+              "RelativeDocumentMoniker": "ApplicationBackend\\Data\\ConexionBD.cs",
+              "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Data\\ConexionBD.cs",
+              "RelativeToolTip": "ApplicationBackend\\Data\\ConexionBD.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T13:54:13.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Controllers\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "ApplicationBackend\\Controllers\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Controllers\\EmpleadosController.cs",
+              "RelativeToolTip": "ApplicationBackend\\Controllers\\EmpleadosController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T00:07:52.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Empleados.cs",
+              "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Models\\Empleados.cs",
+              "RelativeDocumentMoniker": "ApplicationBackend\\Models\\Empleados.cs",
+              "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Models\\Empleados.cs",
+              "RelativeToolTip": "ApplicationBackend\\Models\\Empleados.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T23:56:32.666Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
