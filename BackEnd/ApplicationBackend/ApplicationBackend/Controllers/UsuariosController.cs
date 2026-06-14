@@ -9,11 +9,11 @@ namespace ApplicationBackend.Controllers
     public class UsuariosController : ControllerBase
     {
         [HttpGet]
-        [Route("validar-user")]
-        public async Task<IActionResult> SesionUser()
+        [Route("validar-user/{user}/{pass}")]
+        public async Task<IActionResult> SesionUser(string user, string pass)
         {
             var repo = new RepositoryUsuarios();
-            var usuario = repo.ValidarUsuario();
+            var usuario = repo.ValidarUsuario(user, pass);
             return Ok(usuario);
         }
     }

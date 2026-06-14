@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\applicationbackend\\models\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|solutionrelative:applicationbackend\\models\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\applicationbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|solutionrelative:applicationbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\applicationbackend\\data\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|solutionrelative:applicationbackend\\data\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\applicationbackend\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|solutionrelative:applicationbackend\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\applicationbackend\\data\\repositories\\irepositoryusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|solutionrelative:applicationbackend\\data\\repositories\\irepositoryusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\applicationbackend\\data\\repositories\\repositoryusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|solutionrelative:applicationbackend\\data\\repositories\\repositoryusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\applicationbackend\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|solutionrelative:applicationbackend\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\applicationbackend\\data\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|solutionrelative:applicationbackend\\data\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,47 +73,88 @@
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Program.cs",
+              "RelativeDocumentMoniker": "ApplicationBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Program.cs",
+              "RelativeToolTip": "ApplicationBackend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T17:08:01.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RepositoryUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Data\\Repositories\\RepositoryUsuarios.cs",
+              "RelativeDocumentMoniker": "ApplicationBackend\\Data\\Repositories\\RepositoryUsuarios.cs",
+              "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Data\\Repositories\\RepositoryUsuarios.cs",
+              "RelativeToolTip": "ApplicationBackend\\Data\\Repositories\\RepositoryUsuarios.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowCIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T15:02:02.183Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ConexionBD.cs",
-              "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Data\\ConexionBD.cs",
-              "RelativeDocumentMoniker": "ApplicationBackend\\Data\\ConexionBD.cs",
-              "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Data\\ConexionBD.cs",
-              "RelativeToolTip": "ApplicationBackend\\Data\\ConexionBD.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "ApplicationBackend\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "ApplicationBackend\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T13:54:13.503Z",
+              "WhenOpened": "2026-06-11T14:59:44.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "IRepositoryUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Data\\Repositories\\IRepositoryUsuarios.cs",
+              "RelativeDocumentMoniker": "ApplicationBackend\\Data\\Repositories\\IRepositoryUsuarios.cs",
+              "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Data\\Repositories\\IRepositoryUsuarios.cs",
+              "RelativeToolTip": "ApplicationBackend\\Data\\Repositories\\IRepositoryUsuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T14:38:57.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConexionBD.cs",
+              "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Data\\ConexionBD.cs",
+              "RelativeDocumentMoniker": "ApplicationBackend\\Data\\ConexionBD.cs",
+              "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Data\\ConexionBD.cs",
+              "RelativeToolTip": "ApplicationBackend\\Data\\ConexionBD.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T13:54:13.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "EmpleadosController.cs",
               "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Controllers\\EmpleadosController.cs",
               "RelativeDocumentMoniker": "ApplicationBackend\\Controllers\\EmpleadosController.cs",
               "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Controllers\\EmpleadosController.cs",
               "RelativeToolTip": "ApplicationBackend\\Controllers\\EmpleadosController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T00:07:52.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Empleados.cs",
-              "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Models\\Empleados.cs",
-              "RelativeDocumentMoniker": "ApplicationBackend\\Models\\Empleados.cs",
-              "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Models\\Empleados.cs",
-              "RelativeToolTip": "ApplicationBackend\\Models\\Empleados.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBMAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T23:56:32.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{2826931d-bb12-452c-b660-c21852fb5da2}"
+              "WhenOpened": "2026-06-01T00:07:52.423Z"
             }
           ]
         }

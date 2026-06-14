@@ -4,7 +4,7 @@ namespace ApplicationBackend.Data.Repositories
 {
     public interface IRepositoryUsuarios
     {
-        Usuarios ValidarUsuario();
+        Usuarios ValidarUsuario(string usarname, string pass);
         void Agregar(Usuarios usuario);
         void Actualizar(Usuarios usuario);
         void Eliminar(Usuarios usuario);

@@ -25,7 +25,7 @@ namespace ApplicationBackend.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public Usuarios ValidarUsuario()
+        public  Usuarios ValidarUsuario(string name, string pass)
         {
             var user = new Usuarios();
             try
@@ -34,8 +34,8 @@ namespace ApplicationBackend.Data.Repositories
                 using (var acceso = new NpgsqlConnection(ConexionBD.connection()))
                 {
                     acceso.Open();
-                    string c = $"select * from Usuarios where UsuarioId = 1";
-                    var comando = new NpgsqlCommand(c);
+                    string c = $"select * from Usuarios where username = '{name}' and passwords = '{pass}'";
+                    var comando = new NpgsqlCommand(c, acceso);
                     var reader = comando.ExecuteReader();
 
                     while (reader.Read())
