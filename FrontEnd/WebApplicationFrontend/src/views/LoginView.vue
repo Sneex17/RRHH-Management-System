@@ -1,21 +1,30 @@
 <script setup lang="ts">
 
-
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
+import { Usuarios } from '../Entities/Usuarios';
+
 
 const nombre = ref()   // v-model lo llena automáticamente
 const pass = ref()
-const router = useRouter()
 
+let Usuario = new Usuarios();
+Usuario.Username = nombre.value;
+Usuario.Password = pass.value;
+
+const UsuarioJson = JSON.stringify(Usuario);
+const router = useRouter()
+console.log(UsuarioJson)
 async function login() {
     try {
         const res = await fetch(
-            `https://localhost:7001/apirrhh/usuarios/validar-user/${nombre.value}/${pass.value}`
+            `https://localhost:7001/apirrhh/usuarios/validar-user/${UsuarioJson}`
         );
 
         const data = await res.json();
-        if (data) {
+        //Usuario = JSON.parse(data);
+
+        if (Usuario.UserId > 0) {
             console.log(data)
             alert('Usuario encontrado');
         } else {
@@ -37,6 +46,7 @@ async function login() {
                 <h2>Welcome</h2>
                 <h3>To Larizel System</h3>
             </div>
+
             <div class="conatainer-login">
                 <h2>Iniciar Seccion</h2>
 
@@ -51,9 +61,13 @@ async function login() {
 </template>
 
 <style>
-body{
+body {
     background-color: aliceblue;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -61,7 +75,8 @@ body{
     width: auto;
     height: auto;
 }
-.conatainer-items{
+
+.conatainer-items {
     display: flex;
     justify-content: center;
     border-radius: 18px;
@@ -84,6 +99,7 @@ body{
 .input-login {
     background-color: rgb(232, 230, 230);
     border: none;
+    outline: none;
     width: 250px;
     height: 45px;
     border-radius: 11px;
@@ -108,7 +124,7 @@ body{
     align-items: center;
     padding: 10px;
     background-color: white;
-    border-radius: 0 11px 11px 0 ;
+    border-radius: 0 11px 11px 0;
     gap: 1rem;
 }
 
@@ -116,5 +132,18 @@ body{
     color: black;
     font-size: 1.7rem;
     font-family: 'Montserrat', sans-seri;
+}
+
+@media screen and (max-width: 900px) {
+    .conatainer-items {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container-info {
+        height: 40vh;
+        border-radius: 11px 11px 0 0;
+    }
 }
 </style>
