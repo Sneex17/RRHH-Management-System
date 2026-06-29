@@ -8,24 +8,34 @@ import { Usuarios } from '../Entities/Usuarios';
 const nombre = ref()   // v-model lo llena automáticamente
 const pass = ref()
 
-let Usuario = new Usuarios();
-Usuario.Username = nombre.value;
-Usuario.Password = pass.value;
-
-const UsuarioJson = JSON.stringify(Usuario);
 const router = useRouter()
-console.log(UsuarioJson)
+
 async function login() {
     try {
-        const res = await fetch(
-            `https://localhost:7001/apirrhh/usuarios/validar-user/${UsuarioJson}`
-        );
+
+        let Usuario = new Usuarios();
+        Usuario.Username = nombre.value;
+        Usuario.Passwords = pass.value;
+
+        const UsuarioJson: string = JSON.stringify(Usuario);
+        console.log(UsuarioJson);
+
+        const res = await fetch('https://localhost:7001/apirrhh/usuarios/validar-user', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: UsuarioJson
+        });
 
         const data = await res.json();
-        //Usuario = JSON.parse(data);
+        //console.log(data);
+        Object.assign(Usuario, data);
+        console.log(Usuario);
 
         if (Usuario.UserId > 0) {
             console.log(data)
+            router.push('/MenuPrincipal');
             alert('Usuario encontrado');
         } else {
             alert('Usuario o contraseña incorrectos');

@@ -1,8 +1,8 @@
 export class Usuarios{
     UserId!:number;
-    EmpleadoId!: number;
+    EmpleadoId!: string;
     Username!: string;
-    Password!: string;
+    Passwords!: string;
     FechaRegistro!: Date;
     UltimaSesion!: Date;
     EstadoId!: number;
