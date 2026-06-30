@@ -59,11 +59,11 @@ import { RouterLink } from 'vue-router';
 .container-main {
     display: flex;
     flex-direction: column;
-    width: 65px;
+    width: 67px;
     /* Ajustado ligeramente para dar espacio al icono + padding */
-    min-width: 65px;
+    min-width: 67px;
     /* Evita que Flexbox destruya o aplaste la barra */
-    max-width: 65px;
+    max-width: 67px;
     height: 100vh;
     padding: 17px 15px;
     background-color: rgb(6, 33, 98);
@@ -72,10 +72,8 @@ import { RouterLink } from 'vue-router';
     transition: 0.4s ease-in-out;
     overflow: hidden;
     white-space: nowrap;
-    /* Evita que los textos salten de línea mientras se abre */
 }
 
-/* Cuando pases el mouse, cambiamos tanto el width como el min/max de control */
 .container-main:hover {
     width: 290px;
     min-width: 290px;
@@ -86,7 +84,7 @@ import { RouterLink } from 'vue-router';
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 17px;
+    gap: 24px;
 }
 
 .user-info .text-user {
@@ -102,20 +100,20 @@ import { RouterLink } from 'vue-router';
 }
 
 .container-btn {
-    padding: 10px;
+    padding: 10px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     text-decoration: none;
-    /* Quita la línea azul de los links */
     color: rgb(255, 255, 255);
-    gap: 17px;
+    gap: 37px;
     cursor: pointer;
     border-radius: 17px;
     transition: background-color 0.2s;
 }
 
 .container-btn:hover {
+    padding: 10px;
     background-color: rgba(255, 255, 255, 0.15);
 }
 
