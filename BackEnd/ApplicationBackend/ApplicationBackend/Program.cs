@@ -16,6 +16,13 @@ builder.Services.AddCors(options =>
             .AllowAnyMethod();
     });
 });
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        // Esto le dice a toda la API que ignore mayúsculas/minúsculas de manera global
+        options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
+    });
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

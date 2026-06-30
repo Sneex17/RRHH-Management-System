@@ -48,19 +48,14 @@
   {
     "ContainingType": "ApplicationBackend.Controllers.UsuariosController",
     "Method": "SesionUser",
-    "RelativePath": "apirrhh/usuarios/validar-user/{user}/{pass}",
-    "HttpMethod": "GET",
+    "RelativePath": "apirrhh/usuarios/validar-user",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "System.String",
-        "IsRequired": true
-      },
-      {
-        "Name": "pass",
-        "Type": "System.String",
+        "Name": "usuario",
+        "Type": "ApplicationBackend.DTOs.LoginUsuarioDTO",
         "IsRequired": true
       }
     ],

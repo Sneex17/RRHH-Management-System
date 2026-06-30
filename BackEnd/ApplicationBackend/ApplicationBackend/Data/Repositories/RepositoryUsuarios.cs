@@ -1,4 +1,7 @@
-﻿using ApplicationBackend.Models;
+﻿using ApplicationBackend.DTOs;
+using ApplicationBackend.Models;
+using Microsoft.AspNetCore.Identity.Data;
+using Newtonsoft.Json;
 using Npgsql;
 
 namespace ApplicationBackend.Data.Repositories
@@ -25,8 +28,9 @@ namespace ApplicationBackend.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public  Usuarios ValidarUsuario(string name, string pass)
+        public  string ValidarUsuario(LoginUsuarioDTO usuarioJson)
         {
+            //var usuario = JsonConvert.DeserializeObject<Usuarios>("usuarioJson");
             var user = new Usuarios();
             try
             {
@@ -34,7 +38,7 @@ namespace ApplicationBackend.Data.Repositories
                 using (var acceso = new NpgsqlConnection(ConexionBD.connection()))
                 {
                     acceso.Open();
-                    string c = $"select * from Usuarios where username = '{name}' and passwords = '{pass}'";
+                    string c = $"select * from Usuarios where username = '{usuarioJson.Username}' and passwords = '{usuarioJson.Passwords}'";
                     var comando = new NpgsqlCommand(c, acceso);
                     var reader = comando.ExecuteReader();
 
@@ -56,7 +60,8 @@ namespace ApplicationBackend.Data.Repositories
             {
                 throw;
             }
-            return user;
+            var userJason = JsonConvert.SerializeObject(user);
+            return userJason;
         }
     }
 }

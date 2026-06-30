@@ -1,10 +1,12 @@
-﻿using ApplicationBackend.Models;
+﻿using ApplicationBackend.DTOs;
+using ApplicationBackend.Models;
+using Microsoft.AspNetCore.Identity.Data;
 
 namespace ApplicationBackend.Data.Repositories
 {
     public interface IRepositoryUsuarios
     {
-        Usuarios ValidarUsuario(string usarname, string pass);
+        string ValidarUsuario(LoginUsuarioDTO usuarioJson);
         void Agregar(Usuarios usuario);
         void Actualizar(Usuarios usuario);
         void Eliminar(Usuarios usuario);

@@ -9,7 +9,7 @@ defineProps({
 <template>
     <form>
         <div class="mb-3">
-            <input type="email" :placeholder="TextPlaceholder" class="form-control" id="exampleInputEmail1"
+            <input type="text" :placeholder="TextPlaceholder" class="form-control" id="exampleInputEmail1"
                 aria-describedby="emailHelp">
         </div>
     </form>

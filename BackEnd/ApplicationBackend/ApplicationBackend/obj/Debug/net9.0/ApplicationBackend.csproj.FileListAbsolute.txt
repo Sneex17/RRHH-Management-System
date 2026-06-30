@@ -34,3 +34,4 @@ C:\Users\xrami\OneDrive\Documentos\Sistema de Gestión de RRHH\RRHH-Management-S
 C:\Users\xrami\OneDrive\Documentos\Sistema de Gestión de RRHH\RRHH-Management-System\BackEnd\ApplicationBackend\ApplicationBackend\obj\Debug\net9.0\ApplicationBackend.pdb
 C:\Users\xrami\OneDrive\Documentos\Sistema de Gestión de RRHH\RRHH-Management-System\BackEnd\ApplicationBackend\ApplicationBackend\obj\Debug\net9.0\ApplicationBackend.genruntimeconfig.cache
 C:\Users\xrami\OneDrive\Documentos\Sistema de Gestión de RRHH\RRHH-Management-System\BackEnd\ApplicationBackend\ApplicationBackend\obj\Debug\net9.0\ref\ApplicationBackend.dll
+C:\Users\xrami\OneDrive\Documentos\Sistema de Gestión de RRHH\RRHH-Management-System\BackEnd\ApplicationBackend\ApplicationBackend\bin\Debug\net9.0\Newtonsoft.Json.dll

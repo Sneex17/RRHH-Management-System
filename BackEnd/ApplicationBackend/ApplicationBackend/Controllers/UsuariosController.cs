@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ApplicationBackend.Data.Repositories;
 using ApplicationBackend.Models;
-using ApplicationBackend.Data.Repositories;
+using Microsoft.AspNetCore.Identity.Data;
+using Microsoft.AspNetCore.Mvc;
+using System.Reflection;
+using ApplicationBackend.DTOs;
 
 namespace ApplicationBackend.Controllers
 {
@@ -8,13 +11,14 @@ namespace ApplicationBackend.Controllers
     [Route("apirrhh/usuarios")]
     public class UsuariosController : ControllerBase
     {
-        [HttpGet]
-        [Route("validar-user/{user}/{pass}")]
-        public async Task<IActionResult> SesionUser(string user, string pass)
+        [HttpPost]
+        [Route("validar-user")]
+        public async Task<IActionResult> SesionUser([FromBody] LoginUsuarioDTO usuario)
         {
+            if (usuario == null) return BadRequest("El modelo llegó nulo");
             var repo = new RepositoryUsuarios();
-            var usuario = repo.ValidarUsuario(user, pass);
-            return Ok(usuario);
+            var usuarioExiste = repo.ValidarUsuario(usuario);
+            return Ok(usuarioExiste);
         }
     }
 }

@@ -12,9 +12,9 @@ defineProps<{
 
 </script>
 <template>
-    <select class="form-select" aria-label="Default select example">
+    <select class="form-select" aria-label="Default select example" style="cursor: pointer;">
         <option selected>{{ textSelected }}</option>
-        <option v-for="data in comboValue" :key="data.id" value="{{ sexo.id }}">{{ data.nombre }}</option>
+        <option v-for="data in comboValue" :key="data.id" value="{{ data.id }}">{{ data.nombre }}</option>
     </select>
 </template>
 <style></style>
