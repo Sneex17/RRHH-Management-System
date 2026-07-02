@@ -104,6 +104,31 @@
             "related": ".xml"
           }
         }
+      },
+      "CAccesoDatos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CEntidades": "1.0.0",
+          "Newtonsoft.Json": "13.0.4",
+          "Npgsql": "10.0.3"
+        },
+        "compile": {
+          "bin/placeholder/CAccesoDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CAccesoDatos.dll": {}
+        }
+      },
+      "CEntidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/CEntidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CEntidades.dll": {}
+        }
       }
     }
   },
@@ -368,10 +393,22 @@
         "npgsql.nuspec",
         "postgresql.png"
       ]
+    },
+    "CAccesoDatos/1.0.0": {
+      "type": "project",
+      "path": "../CAccesoDatos/CAccesoDatos.csproj",
+      "msbuildProject": "../CAccesoDatos/CAccesoDatos.csproj"
+    },
+    "CEntidades/1.0.0": {
+      "type": "project",
+      "path": "../CEntidades/CEntidades.csproj",
+      "msbuildProject": "../CEntidades/CEntidades.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "CAccesoDatos >= 1.0.0",
+      "CEntidades >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.16",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.23.0",
       "Newtonsoft.Json >= 13.0.4",
@@ -410,7 +447,14 @@
         "net9.0": {
           "framework": "net9.0",
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gestión de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\CAccesoDatos\\CAccesoDatos.csproj": {
+              "projectPath": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gestión de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\CAccesoDatos\\CAccesoDatos.csproj"
+            },
+            "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gestión de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\CEntidades\\CEntidades.csproj": {
+              "projectPath": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gestión de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\CEntidades\\CEntidades.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

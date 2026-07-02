@@ -1,9 +1,9 @@
-﻿using ApplicationBackend.Data.Repositories;
-using ApplicationBackend.Models;
+﻿using CAccesoDatos.Data.Repositories;
+using CEntidades.Models;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection;
-using ApplicationBackend.DTOs;
+using CAccesoDatos.DTOs;
 
 namespace ApplicationBackend.Controllers
 {

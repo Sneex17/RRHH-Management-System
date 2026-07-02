@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v9.0": {
       "ApplicationBackend/1.0.0": {
         "dependencies": {
+          "CAccesoDatos": "1.0.0",
+          "CEntidades": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.16",
           "Newtonsoft.Json": "13.0.4",
           "Npgsql": "10.0.3"
@@ -50,6 +52,27 @@
             "fileVersion": "10.0.3.0"
           }
         }
+      },
+      "CAccesoDatos/1.0.0": {
+        "dependencies": {
+          "CEntidades": "1.0.0",
+          "Newtonsoft.Json": "13.0.4",
+          "Npgsql": "10.0.3"
+        },
+        "runtime": {
+          "CAccesoDatos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CEntidades/1.0.0": {
+        "runtime": {
+          "CEntidades.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -86,6 +109,16 @@
       "sha512": "sha512-7nb5YzXuvWWJxB0J8DiyL3we+X4FOctZrt0fIBnucOIaIevFEEwGQVZKtiu9olXdlNAK1eNgqSral6r/jlhI4w==",
       "path": "npgsql/10.0.3",
       "hashPath": "npgsql.10.0.3.nupkg.sha512"
+    },
+    "CAccesoDatos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CEntidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

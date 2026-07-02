@@ -55,7 +55,7 @@
     "Parameters": [
       {
         "Name": "usuario",
-        "Type": "ApplicationBackend.DTOs.LoginUsuarioDTO",
+        "Type": "CAccesoDatos.DTOs.LoginUsuarioDTO",
         "IsRequired": true
       }
     ],

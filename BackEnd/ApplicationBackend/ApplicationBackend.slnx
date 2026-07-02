@@ -1,3 +1,5 @@
 <Solution>
   <Project Path="ApplicationBackend/ApplicationBackend.csproj" />
+  <Project Path="CAccesoDatos/CAccesoDatos.csproj" Id="fd90e9c7-154c-42b9-a790-2011d97a959b" />
+  <Project Path="CEntidades/CEntidades.csproj" Id="a289c286-d862-4324-ad07-2c2ac47e26e6" />
 </Solution>
