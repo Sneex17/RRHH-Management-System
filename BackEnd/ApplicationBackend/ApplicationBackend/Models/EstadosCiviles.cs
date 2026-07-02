@@ -2,5 +2,6 @@
 {
     public int EstadoCivilId { get; set; }
     public string EstadoCivil { get; set; }
+    public string Descripcion { get; set; }
 }
 

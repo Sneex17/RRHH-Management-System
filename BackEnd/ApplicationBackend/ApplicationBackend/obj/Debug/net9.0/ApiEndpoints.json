@@ -62,6 +62,36 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ApplicationBackend.Controllers.EstadoController",
+    "Method": "GetEstados",
+    "RelativePath": "estados/lista-estados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationBackend.Controllers.EstadoCivilController",
+    "Method": "GetEstadosCiviles",
+    "RelativePath": "estadosCiviles/lista-estadoCivil",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationBackend.Controllers.SexoController",
+    "Method": "GetSexos",
+    "RelativePath": "sexos/lista-sexos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApplicationBackend.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

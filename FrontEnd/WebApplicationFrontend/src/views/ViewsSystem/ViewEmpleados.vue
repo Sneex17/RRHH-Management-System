@@ -2,23 +2,49 @@
 import Inputs from '@/components/Forms/Inputs.vue';
 import ComboBox from '@/components/Forms/ComboBox.vue';
 import TableEmpleados from "@/components/Forms/TableEmpleados.vue";
-import { ref } from 'vue';
+import { onMounted, ref } from 'vue';
+import { type cuerpoData } from "@/Controllers/Apis";
+import * as SexoController from "@/Controllers/SexoController"
+import * as EstadoController from "@/Controllers/EstadoController"
+import * as EstadoCivilController from "@/Controllers/EstadoCivilController"
 
 
+const sexos = ref<cuerpoData[]>([]);
+onMounted(async () => {
+    try {
 
-const sexos = ref([
-    { id: 1, nombre: 'Masculido' }, { id: 2, nombre: 'Femenino' }]);
+        sexos.value = await SexoController.ListaSexos();
+    } catch (error) {
+        console.error("Error cargando sexos:", error);
+    }
+});
+
+const estados = ref<cuerpoData[]>([]);
+onMounted(async () => {
+    try {
+        estados.value = await EstadoController.ListaEstados();
+    } catch (error) {
+        console.log("Error cargando estados:", error);
+    }
+})
+
+const estadosCiviles = ref<cuerpoData[]>([])
+onMounted(async () => {
+    try {
+        estadosCiviles.value = await EstadoCivilController.ListaEstadosCiviles();
+    } catch (error) {
+        console.log("Error cargando estados civiles:", error);
+    }
+})
 
 const departamentos = ref([
     { id: 1, nombre: 'Informatica TI' }, { id: 2, nombre: 'Contabilidad' }]);
 
-const estadosCiviles = ref([
-    { id: 1, nombre: 'Estudiante' }, { id: 2, nombre: 'Casado' }]);
+
 
 const cargos = ref([
     { id: 1, nombre: 'Secretaria' }, { id: 2, nombre: 'Gerente' }]);
-const estados = ref([
-    { id: 1, nombre: 'Activo' }, { id: 2, nombre: 'Inactivo' }]);
+
 
 
 const listaEmpleado = ref([

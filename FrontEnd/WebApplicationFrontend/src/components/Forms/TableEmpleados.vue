@@ -1,6 +1,6 @@
 <script setup lang="ts">
-
-interface empleados {
+import { type empleados } from "../../Entities/Empleados";
+/*interface empleados {
     id: string;
     nombre: string;
     apellido: string;
@@ -9,7 +9,7 @@ interface empleados {
     cargo: string;
     sexo: string;
     estado: boolean;
-}
+}*/
 defineProps<{
     dataTable: empleados[];
 }>();

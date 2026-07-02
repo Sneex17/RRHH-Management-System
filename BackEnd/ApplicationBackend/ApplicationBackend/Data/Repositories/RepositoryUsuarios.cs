@@ -30,7 +30,6 @@ namespace ApplicationBackend.Data.Repositories
 
         public  string ValidarUsuario(LoginUsuarioDTO usuarioJson)
         {
-            //var usuario = JsonConvert.DeserializeObject<Usuarios>("usuarioJson");
             var user = new Usuarios();
             try
             {
