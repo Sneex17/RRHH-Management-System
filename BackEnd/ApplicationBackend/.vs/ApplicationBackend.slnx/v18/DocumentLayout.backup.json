@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\applicationbackend\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C462F5B-FF8D-486F-342A-7AC0D0FED0A1}|ApplicationBackend\\ApplicationBackend.csproj|solutionrelative:applicationbackend\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A289C286-D862-4324-AD07-2C2AC47E26E6}|CEntidades\\CEntidades.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\centidades\\models\\sexos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A289C286-D862-4324-AD07-2C2AC47E26E6}|CEntidades\\CEntidades.csproj|solutionrelative:centidades\\models\\sexos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD90E9C7-154C-42B9-A790-2011D97A959B}|CAccesoDatos\\CAccesoDatos.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\caccesodatos\\data\\repositories\\repositorydepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD90E9C7-154C-42B9-A790-2011D97A959B}|CAccesoDatos\\CAccesoDatos.csproj|solutionrelative:caccesodatos\\data\\repositories\\repositorydepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A289C286-D862-4324-AD07-2C2AC47E26E6}|CEntidades\\CEntidades.csproj|c:\\users\\xrami\\onedrive\\documentos\\sistema de gesti\u00F3n de rrhh\\rrhh-management-system\\backend\\applicationbackend\\centidades\\models\\departamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A289C286-D862-4324-AD07-2C2AC47E26E6}|CEntidades\\CEntidades.csproj|solutionrelative:centidades\\models\\departamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepositoryDepartamentos.cs",
+              "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\CAccesoDatos\\Data\\Repositories\\RepositoryDepartamentos.cs",
+              "RelativeDocumentMoniker": "CAccesoDatos\\Data\\Repositories\\RepositoryDepartamentos.cs",
+              "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\CAccesoDatos\\Data\\Repositories\\RepositoryDepartamentos.cs",
+              "RelativeToolTip": "CAccesoDatos\\Data\\Repositories\\RepositoryDepartamentos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T22:14:45.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Controllers\\DepartamentoController.cs",
+              "RelativeDocumentMoniker": "ApplicationBackend\\Controllers\\DepartamentoController.cs",
+              "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\ApplicationBackend\\Controllers\\DepartamentoController.cs",
+              "RelativeToolTip": "ApplicationBackend\\Controllers\\DepartamentoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T22:10:10.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Departamentos.cs",
+              "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\CEntidades\\Models\\Departamentos.cs",
+              "RelativeDocumentMoniker": "CEntidades\\Models\\Departamentos.cs",
+              "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\CEntidades\\Models\\Departamentos.cs",
+              "RelativeToolTip": "CEntidades\\Models\\Departamentos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T22:08:22.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sexos.cs",
+              "DocumentMoniker": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\CEntidades\\Models\\Sexos.cs",
+              "RelativeDocumentMoniker": "CEntidades\\Models\\Sexos.cs",
+              "ToolTip": "C:\\Users\\xrami\\OneDrive\\Documentos\\Sistema de Gesti\u00F3n de RRHH\\RRHH-Management-System\\BackEnd\\ApplicationBackend\\CEntidades\\Models\\Sexos.cs",
+              "RelativeToolTip": "CEntidades\\Models\\Sexos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T22:07:03.17Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"

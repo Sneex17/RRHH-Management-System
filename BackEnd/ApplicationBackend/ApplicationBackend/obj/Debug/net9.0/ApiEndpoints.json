@@ -62,6 +62,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ApplicationBackend.Controllers.DepartamentoController",
+    "Method": "GetDepartamentos",
+    "RelativePath": "departamentos/lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApplicationBackend.Controllers.EstadoController",
     "Method": "GetEstados",
     "RelativePath": "estados/lista-estados",

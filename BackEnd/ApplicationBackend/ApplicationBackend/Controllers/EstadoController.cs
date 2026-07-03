@@ -14,7 +14,8 @@ namespace ApplicationBackend.Controllers
         {
             var repository = new RepositoryEstados();
             var listaEstados = JsonConvert.SerializeObject(repository.Lista());
-            return Ok(listaEstados);     
+            return Ok(listaEstados);
         }
     }
+
 }
