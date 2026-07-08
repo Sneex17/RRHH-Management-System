@@ -3,7 +3,7 @@
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { Usuarios } from '../Entities/Usuarios';
-
+import Swal from 'sweetalert2';
 
 const nombre = ref()   // v-model lo llena automáticamente
 const pass = ref()
@@ -38,11 +38,21 @@ async function login() {
             router.push('/MenuPrincipal');
             alert('Usuario encontrado');
         } else {
-            alert('Usuario o contraseña incorrectos');
+            Swal.fire({
+                title: 'Success!',
+                text: 'Your operation was completed successfully.',
+                icon: 'success',
+                confirmButtonText: 'Cool'
+            });
         }
     } catch (error) {
         console.error(error);
-        alert('No se pudo conectar con el servidor');
+        Swal.fire({
+            title: 'Error al de conexion!',
+            text: 'No se pudo conectar con el servidor.',
+            icon: 'error',
+            confirmButtonText: 'Ok'
+        });
     }
 }
 

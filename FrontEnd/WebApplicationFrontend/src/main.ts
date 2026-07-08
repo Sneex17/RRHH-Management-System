@@ -24,6 +24,8 @@ import router from "./router";
 import "./assets/main.scss";
 import "bootstrap";
 
+import VueSweetalert2 from "vue-sweetalert2";
+import "sweetalert2/dist/sweetalert2.min.css";
 library.add(
   faUser,
   faClipboardUser,
@@ -40,6 +42,6 @@ library.add(
 const app = createApp(App);
 app.component("font-awesome-icon", FontAwesomeIcon as any);
 app.use(createPinia());
-app.use(router);
+app.use(router).use(VueSweetalert2);
 
 app.mount("#app");
